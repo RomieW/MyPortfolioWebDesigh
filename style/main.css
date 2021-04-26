@@ -3,6 +3,7 @@ body {
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  background-color: #696969;
 }
 
 img {
@@ -180,5 +181,26 @@ footer .social-footer a {
 
 footer .social-footer a img {
   width: 35%;
+}
+
+.Container{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+h3 {
+  width: 100%;
+  height: 100%;
+}
+
+
+.box_iframe{
+  width: 450px;
+  height: 300px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 /*# sourceMappingURL=main.css.map */
