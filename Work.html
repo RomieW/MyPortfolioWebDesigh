@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <ul class="nav-flex">
+            <li class="box_head" onclick="nextpage('index.html')">
+                Home
+            </li>
+            <li class="box_head" onclick="nextpage('About.html')">
+                About
+            </li>
+            <li class="box_head" onclick="nextpage('Certificate.html')">
+                Certificate
+            </li>
+            <li class="box_head" onclick="nextpage('Resume.html')">
+                Resume
+            </li>
+        </ul>
+    </nav>
+    <section class="content">
+        <div class="logo">
+            <a class="content-item" href="./index.html">
+                <img src="image/LOGO.jpg">
+            </a>
+        </div>
+        <div class="main-content content-item">
+            <img src="image/Portfoliol/Work/WorkCover.jpg" id="aboutimg">
+        </div>
+        <div class="menu content-item">
+            <div class="menu-items" onclick="nextimg('image/Portfoliol/Work/WorkCover.jpg')">
+                <h1>Cover</h1>
+            </div>
+            <div class="menu-items" onclick="nextimg('image/Portfoliol/Work/Workpage1.jpg')">
+                <h1>1</h1>
+            </div>
+            <div class="menu-items" onclick="nextimg('image/Portfoliol/Work/Workpage2.jpg')">
+                <h1>2</h1>
+            </div>
+            <div class="menu-items" onclick="nextimg('image/Portfoliol/Work/Workpage3.jpg')">
+                <h1>3</h1>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="social-footer">
+            <a href="https://www.facebook.com/way.kub.9"><img src="image/ICon FB.png "></a>
+            <a href="https://www.instagram.com/wayry_1995/?hl=th"><img src="image/ICon IG.png"></a>
+        </div>
+    </footer>
+</body>
+
+<script src="main.js"></script>
+
+</html>
