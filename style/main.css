@@ -123,8 +123,19 @@ nav .nav-flex li a {
   text-align: center;
   padding: 20px 100px;
   margin: 20px;
-  border: 2px solid red;
-  background: chocolate;
+  border: 2px solid black;
+  animation-name: buttom;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  color: white;
+}
+
+@keyframes buttom {
+  0%   {background-color:#D3D3D3;}
+  25%  {background-color:#BEBEBE;}
+  50%  {background-color:#696969;}
+  75%  {background-color:#DCDCDC;}
+  100% {background-color:#8B7355;}
 }
 
 @media (max-width: 991px) {
@@ -202,5 +213,9 @@ h3 {
   height: 300px;
   margin-top: 25px;
   margin-bottom: 25px;
+}
+
+a {
+  text-decoration: none;
 }
 /*# sourceMappingURL=main.css.map */
